@@ -1,3 +1,7 @@
+//BRUTE FORCE WAY TO HANDLE THE PROBLEM
+//GIVEN TO SORTED ARRAYS (ASCENDIG ORDER), WILL RETURN ANOTHER ARRAY CONTAINING THE ELEMENTS OF BOTH THE ARRAYS IN ORDER 
+
+
 func merge(nums1 []int, nums2 []int) []int {
 	arr := []int{}
 	if len(nums1) == len(nums2) {
